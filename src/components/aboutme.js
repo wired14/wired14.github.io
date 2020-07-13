@@ -9,12 +9,12 @@ class AboutMe extends Component {
                 <Cell col={6}>
                     <h2>David Dirks</h2>
                     <img 
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        src={require('../images/avatar.png')}
                         alt="avatar"
                         style={{height: '250px'}}
                     />
                     <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                        David is a software engineer that lives in Oklahoma City, Oklahoma. In his free time he enjoys running, soccer, gaming, and reading books.
+                        David is a software engineer who lives in Oklahoma City, Oklahoma. In his free time he enjoys running, soccer, gaming, and reading books.
                     </p>
                 </Cell>
                 <Cell col={6}>

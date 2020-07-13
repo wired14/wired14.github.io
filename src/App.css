@@ -32,7 +32,11 @@
 
 .banner-text h1 {
   font-size: 66px;
-  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+}
+
+.banner-text h2 {
   color: white;
 }
 
@@ -53,6 +57,7 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .social-links i {

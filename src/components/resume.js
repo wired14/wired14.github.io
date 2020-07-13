@@ -12,7 +12,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         {/*<div style={{textAlign: 'center'}}>
                             <img
-                                src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpg"
+                                src={require('../images/avatar.png')}
                                 alt="avatar"
                                 style={{height: '200px'}}
                                 />
@@ -46,31 +46,31 @@ class Resume extends Component {
                         <Experience
                             startYear="Jan 2020"
                             endYear="Current"
-                            jobName="The Boeing Compnay"
+                            jobName="The Boeing Company | Oklahoma City, OK"
                             jobDescription="Software Engineer II"
                         />
                         <Experience
                             startYear="Oct 2018"
                             endYear="Jan 2020"
-                            jobName="The Boeing Company"
+                            jobName="The Boeing Company | Oklahoma City, OK"
                             jobDescription="Systems Engineer II"
                         />
                         <Experience
                             startYear="Jun 2016"
                             endYear="Oct 2018"
-                            jobName="Hewlett Packard Enterprise"
+                            jobName="Hewlett Packard Enterprise | Colorado Springs, CO"
                             jobDescription="Electrical Hardware Design Engineer I"
                         />
                         <Experience
                             startYear="May 2015"
                             endYear="Aug 2015"
-                            jobName="LK Architecture"
+                            jobName="LK Architecture | Wichita, KS"
                             jobDescription="Electrical Engineering Intern"
                         />
                         <Experience
                             startYear="May 2014"
                             endYear="Aug 2014"
-                            jobName="Bombardier Learjet"
+                            jobName="Bombardier Learjet | Wichita, KS"
                             jobDescription="Electrical Instrumentation Design Intern"
                         />
                         <hr sytle={{borderTop: '3px solid #833fb2'}}/>
