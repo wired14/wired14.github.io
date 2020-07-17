@@ -11,7 +11,7 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 {/* Project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         React Project #1
                     </CardTitle>
@@ -19,8 +19,12 @@ class Projects extends Component {
                         daviddirks.net
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>LiveDemo</Button>
+                        <a href="https://github.com/wired14/daviddirksnet" rel="noopener noreferrer" target="_blank">
+                            <Button colored> Github</Button>
+                        </a>
+                        <a href="http://www.daviddirks.net" rel="noopener noreferrer" target="_blank">
+                            <Button colored>LiveDemo</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -33,22 +37,21 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 {/* Project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         iOS Project #1
                     </CardTitle>
                     <CardText>
-                        watchOS Timer App (in work)
+                        watchOS Timer App
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>Youtube</Button>
+                        <Button colored>Github (in work)</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         iOS Project #2
                     </CardTitle>
@@ -56,7 +59,9 @@ class Projects extends Component {
                         Hyper Video Controller iPhone App
                     </CardText>
                     <CardActions border>
-                        <Button colored>Youtube</Button>
+                        <a href="https://www.youtube.com/watch?v=ndGSDthNzOg" rel="noopener noreferrer" target="_blank">
+                            <Button colored>Youtube</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -69,7 +74,7 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 {/* Project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         Embedded Project #1
                     </CardTitle>
@@ -77,7 +82,7 @@ class Projects extends Component {
                         Pi Camera Setup
                     </CardText>
                     <CardActions border>
-                        <Button colored>Youtube</Button>
+                        <Button colored>Youtube (In Work)</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -85,15 +90,17 @@ class Projects extends Component {
                 </Card>
 
                 {/* Project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         Embedded Project #2
                     </CardTitle>
                     <CardText>
-                        PS4 PI Motor Control
+                        PS4 DS4 PI Setup
                     </CardText>
                     <CardActions border>
-                        <Button colored>Youtube</Button>
+                        <a href="https://www.youtube.com/watch?v=1EYtZC2iVzc" rel="noopener noreferrer" target="_blank">
+                            <Button colored>Youtube</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -101,7 +108,7 @@ class Projects extends Component {
                 </Card>
                 
                 {/* Project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
                         Embedded Project #3
                     </CardTitle>
@@ -109,7 +116,9 @@ class Projects extends Component {
                         Hyper Video Controller Demo
                     </CardText>
                     <CardActions border>
-                        <Button colored>Youtube</Button>
+                        <a href="https://www.youtube.com/watch?v=14n17FMulYE" rel="noopener noreferrer" target="_blank">
+                            <Button colored>Youtube</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />

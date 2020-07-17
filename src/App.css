@@ -42,7 +42,7 @@
 
 .banner-text hr {
   border-top: 5px dotted white;
-  width: 75%;
+  width: 60%;
   margin: auto;
 }
 
@@ -68,6 +68,9 @@
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
 }
 
 .contact-body {
