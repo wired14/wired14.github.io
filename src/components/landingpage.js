@@ -7,17 +7,12 @@ class LandingPage extends Component {
             <div style ={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        {/*<img
-                            src={require('../images/avatar.png')}
-                            alt="avatar"
-                            className="avatar-image"
-                        />*/}
                         <div className="banner-text">
                             <h1>David Dirks</h1>
                             <h2>Software Engineer</h2>
                         <hr/>
                         <p>
-                        C++ | C | Python | Gitlab | Git Bash | Linux/Unix | QT | OOP | SQL Server | Verilog | RSS | React
+                        C++ | C | Python | Swift | Gitlab | Git Bash | Linux/Unix | QT | OOP | SQL Server | Verilog | RSS | React
                         </p>
                         <div className="social-links">
                             {/* LinkedIn */}

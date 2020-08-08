@@ -25,7 +25,7 @@ class AboutMe extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                     (316)-213-2372
+                                    (316)-213-2372
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, IconButton, CardActions, Button, CardMenu, CardText } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 class Projects extends Component {
     constructor(props) {
@@ -42,10 +43,13 @@ class Projects extends Component {
                         iOS Project #1
                     </CardTitle>
                     <CardText>
-                        watchOS Timer App
+                        Interval Timer - HIIT
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github (in work)</Button>
+                        <Button colored>App Store (coming soon)</Button>
+                        <Link to="/intervaltimerprivacypolicy">
+                        <Button colored>Privacy Policy</Button>
+                        </Link>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />

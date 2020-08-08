@@ -10,13 +10,6 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell col={4}>
-                        {/*<div style={{textAlign: 'center'}}>
-                            <img
-                                src={require('../images/avatar.png')}
-                                alt="avatar"
-                                style={{height: '200px'}}
-                                />
-                        </div>*/}
                         <h2 style={{paddingTop: '30px'}}>David Dirks</h2>
                         <h4 style={{color: 'grey'}}>Software Engineer</h4>
                         <hr sytle={{borderTop: '3px solid #833fb2', width: '50%'}}/>
