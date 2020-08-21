@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, IconButton, CardActions, Button, CardMenu, CardText } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import iosbackground from '../images/Icon.png';
 
 class Projects extends Component {
     constructor(props) {
@@ -14,7 +15,6 @@ class Projects extends Component {
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        React Project #1
                     </CardTitle>
                     <CardText>
                         daviddirks.net
@@ -39,14 +39,15 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        iOS Project #1
+                    <CardTitle style={{color: '#fff', height: '176px', background: "url(" + iosbackground + ")center / cover"}}>
                     </CardTitle>
                     <CardText>
                         Interval Timer - HIIT
                     </CardText>
                     <CardActions border>
-                        <Button colored>App Store (coming soon)</Button>
+                        <a href="https://apps.apple.com/app/interval-timer-hiit/id1526080613" rel="noopener noreferrer" target="_blank">
+                        <Button colored>App Store</Button>
+                        </a>
                         <Link to="/intervaltimerprivacypolicy">
                         <Button colored>Privacy Policy</Button>
                         </Link>
@@ -57,7 +58,6 @@ class Projects extends Component {
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        iOS Project #2
                     </CardTitle>
                     <CardText>
                         Hyper Video Controller iPhone App
@@ -80,7 +80,6 @@ class Projects extends Component {
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        Embedded Project #1
                     </CardTitle>
                     <CardText>
                         Pi Camera Setup
@@ -96,7 +95,6 @@ class Projects extends Component {
                 {/* Project 2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        Embedded Project #2
                     </CardTitle>
                     <CardText>
                         PS4 DS4 PI Setup
@@ -114,7 +112,6 @@ class Projects extends Component {
                 {/* Project 3 */}
                 <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-                        Embedded Project #3
                     </CardTitle>
                     <CardText>
                         Hyper Video Controller Demo
